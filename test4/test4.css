@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #2d7cb7, #8847af);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.container h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.container form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .form-login {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.form-login input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.form-login label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.forgot-password {
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.button {
+    color: #fff;
+    margin-top: 40px;
+}
+
+.button input {
+    color: #fff;
+    background: #2d7cb7;
+    border-radius: 50px;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.input-box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.register {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.register a {
+    color: #2691d9;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
